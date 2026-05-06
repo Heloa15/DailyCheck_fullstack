@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Check</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <h1 class="logo">DAILY CHECK</h1>
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                 <a href="temperatura.html" class="active">Temperatura</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container content-area">
+
+        <div class="header-actions">
+            <h2 class="page-title">Minhas Tarefas</h2>
+            <button onclick="openForm()" class="btn-add-main">+ Nova Tarefa</button>
+        </div>
+
+     
+        <div id="task-form-container" class="task-form hidden">
+            <h2>Cadastrar Nova Tarefa</h2>
+
+            <form id="taskForm">
+                <input type="text" id="nome" placeholder="Nome da tarefa" required>
+
+                <div class="input-row">
+                    <div>
+                        <label>Início</label>
+                        <input type="date" id="inicio" required>
+                    </div>
+                    <div>
+                        <label>Fim</label>
+                        <input type="date" id="fim" required>
+                    </div>
+                </div>
+
+                <textarea id="descricao" placeholder="Descrição" required></textarea>
+
+                <div class="form-footer">
+                    <button type="button" onclick="closeForm()" class="btn-cancel">Cancelar</button>
+                    <button type="submit" class="btn-save">Salvar</button>
+                </div>
+            </form>
+        </div>
+
+       
+        <div id="tasks-container" class="grid-cards"></div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

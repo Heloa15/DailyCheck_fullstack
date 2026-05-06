@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperatura - Daily Check</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <h1 class="logo">DAILY CHECK</h1>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="temperatura.html" class="active">Temperatura</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container content-area">
+
+        <div class="weather-card">
+
+            <h2>🌤️ Consultar Clima</h2>
+
+            <div class="weather-search">
+                <input 
+                    type="text" 
+                    id="cityInput" 
+                    placeholder="Digite uma cidade (ex: São Paulo)"
+                >
+                <button onclick="getWeather()">Buscar</button>
+            </div>
+
+            <div id="weatherResult" class="weather-result hidden"></div>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
