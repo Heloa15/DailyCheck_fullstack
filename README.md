@@ -43,12 +43,11 @@ Interface moderna com tema **rosa + laranja**, desenvolvida com foco em simplici
 ---
 
 ## 📂 Estrutura do Projeto
-📁 daily-check
 │
-├── index.html # Página principal (tarefas)
-├── temperatura.html # Página de clima
-├── style.css # Estilos do projeto
-├── script.js # Lógica da aplicação
+├── index.html 
+├── temperatura.html 
+├── style.css
+├── script.js 
 
 
 ## ⚙️ Como rodar o projeto
