@@ -43,11 +43,13 @@ Interface moderna com tema **rosa + laranja**, desenvolvida com foco em simplici
 ---
 
 ## 📂 Estrutura do Projeto
+```git
 │
 ├── index.html 
 ├── temperatura.html 
 ├── style.css
-├── script.js 
+├── script.js
+``` 
 
 
 ## ⚙️ Como rodar o projeto
