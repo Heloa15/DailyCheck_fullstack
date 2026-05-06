@@ -23,12 +23,12 @@ Interface moderna com tema **rosa + laranja**, desenvolvida com foco em simplici
 
 ### 🏠 Tela de Tarefas
 
-![Home](<img width="1905" height="522" alt="image" src="https://github.com/user-attachments/assets/8dda7326-cf37-4515-a2d2-81056c3af015" />
+(<img width="1905" height="522" alt="image" src="https://github.com/user-attachments/assets/8dda7326-cf37-4515-a2d2-81056c3af015" />
 )
 
 ### 🌡️ Tela de Clima
 
-![Clima](<img width="1906" height="605" alt="image" src="https://github.com/user-attachments/assets/6c58633d-a6ed-41a3-b338-25151217b6eb">)
+(<img width="1906" height="605" alt="image" src="https://github.com/user-attachments/assets/6c58633d-a6ed-41a3-b338-25151217b6eb">)
 
 ---
 
@@ -55,7 +55,7 @@ Interface moderna com tema **rosa + laranja**, desenvolvida com foco em simplici
 
 ### 1. Baixar o projeto
 
-git clone https://github.com/seu-usuario/daily-check.git
+git clone https://github.com/Heloa15/DailyCheck_fullstack.git
 
 ---
 
